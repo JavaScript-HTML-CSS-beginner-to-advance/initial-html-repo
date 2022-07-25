@@ -1,0 +1,34 @@
+body
+{
+    background-color: burlywood;
+}
+.Text1
+{
+    color: gold;
+   text-shadow: 0.22vh 0.2vh black;
+   display: flex;
+   flex-direction: grid;
+   justify-content: center;
+}
+.CLK2
+{
+display: flex;
+flex-direction: grid;
+align-items: flex-end;
+justify-content: center;
+}
+.Button
+{
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;    
+}
+.button
+{
+    cursor: cell;
+    background-color: gold;
+    margin-left: 2vw;
+
+}

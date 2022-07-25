@@ -1,0 +1,87 @@
+body
+{
+    background-color: burlywood;
+}
+.H1
+{
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 0px;
+    color: #1D171E;
+        text-shadow: 0.05vw 0.2vh #A5402D;
+}
+
+.H2 
+{
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    
+}
+.Lorem1
+{
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+
+}
+
+.Lorem2
+ {
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+
+}
+.Lorem3
+ {
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+
+}
+.Social1
+ {
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10vh;
+
+}
+.Social2 
+{
+    display: flex;
+    flex-direction: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+.Facebook
+{
+    margin-right: 10px;
+    color: blue;
+}
+.Instagram
+{
+    color: #e4717a;
+}
+.Reddit
+{
+    margin-left: 10px;
+    color: red;
+}
