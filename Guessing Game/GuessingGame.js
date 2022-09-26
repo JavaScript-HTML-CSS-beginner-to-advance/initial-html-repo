@@ -14,11 +14,11 @@ To notify the user about the result use alert('');
 */
 
 function getUserNumber() {
-  const promptUser = prompt("Insert a random number between 1 and 10.");
-  const randomNumber = Math.floor(Math.random() * 10);
+  const promptUser = prompt("Insert a random number between 0 and 10.");
+  const randomNumber = Math.floor(Math.random() * 11);
   if (parseInt(promptUser) === randomNumber) {
-    alert("Bravo pi4");
+    alert(`bravo ti uceli 4isloto be6e : ${randomNumber}`);
   } else {
-    alert("Proval");
+    alert(`ti ne uceli bace, 4isloto be6e : ${randomNumber}`);
   }
 }
