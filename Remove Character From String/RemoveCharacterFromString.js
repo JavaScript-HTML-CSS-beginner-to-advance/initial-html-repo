@@ -3,11 +3,12 @@
 
 // console.log(removeCharacter('Example', 0)) => should log xample
 
-let str = "redact - Whales are quite big.";
+// let str = "redact - Whales are quite big.";
 
 function Remove(str, position) {
-  str = str.slice(1 + 2 + 3, position); //+ str.slice(position + 1, str.slice);
-  return str;
+  console.log(
+    str.substring(0, position - 1) + str.substring(position, str.length)
+  );
 }
 
-console.log(Remove("redact - Whales are quite big."));
+Remove("redact - Whales are quite big.", 2);
