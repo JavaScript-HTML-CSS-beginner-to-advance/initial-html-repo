@@ -3,5 +3,11 @@
 
 // console.log(removeCharacter('Example', 0)) => should log xample
 
-let sentence = "This is a short sentence.";
-console.log(sentence.replace("sentence", "entence"));
+let str = "redact - Whales are quite big.";
+
+function Remove(str, position) {
+  str = str.slice(1 + 2 + 3, position); //+ str.slice(position + 1, str.slice);
+  return str;
+}
+
+console.log(Remove("redact - Whales are quite big."));
